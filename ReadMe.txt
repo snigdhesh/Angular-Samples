@@ -6,9 +6,13 @@ warning: app may not work without node modules folder.
 steps
 -------
 
-open command prompt and go to your project folder. 
-Type the following commands sequentially.
+open command prompt and type following commands sequentially.
 
-1. npm -g install typescript. [-g indicates installing typescript globally]
+1. "npm -g install typescript" [-g indicates installing typescript globally]
+	or
+   "npm install typescript" for normal install.
+
 2. npm -g install typings.
 3. npm start
+
+	
