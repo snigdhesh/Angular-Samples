@@ -11,4 +11,6 @@ open command prompt and type following commands sequentially.
 2. npm -g install typings.
 3. npm start
 
+
+NODE MODULES gets created when you run the project.
 	
