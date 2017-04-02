@@ -2,7 +2,7 @@
 steps
 -------
 
-open command prompt and type following commands sequentially.
+open command prompt, then go to the project directory and type following commands sequentially.
 
 1. "npm -g install typescript" [-g indicates installing typescript globally]
 	or
