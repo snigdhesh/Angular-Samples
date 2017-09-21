@@ -1,10 +1,16 @@
 How to run it?
 -------------
 
+
+NOTE: you need to install ng2 charts,You can install ng2-charts using npm npm install "ng2-charts --save".
+Also install chart.js using "npm install angular-chart.js --save" command.
+
+
 1. download the project, and go to folder gradeanalysis.
 2. run "ng serve", it shows you an error that angular/compiler-cli was not properly installed. Don't panic. This is because I have not included "node_modules" folder in the project as it is 160+mb.   :D
 3. run "npm install", this should solve the problem.
 4. Now run "ng serve" again, this should now work generally at localhost:4200
+
 
 commond issue and solution ot it
 --------------------------------
