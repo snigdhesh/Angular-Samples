@@ -1,7 +1,7 @@
 ## How to run the project?
 - open command prompt, then go to the project directory and type following commands sequentially.
 - `npm -g install typescript` [-g indicates installing typescript globally]
-	or
+	(or)
 - `npm install typescript` for normal install.
 
 ###### NOTE 
