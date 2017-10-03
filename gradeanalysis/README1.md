@@ -1,9 +1,8 @@
-How to run it?
--------------
-
-
-NOTE: you need to install ng2 charts,You can install ng2-charts using npm npm install "ng2-charts --save".
-Also install chart.js using "npm install angular-chart.js --save" command.
+## How to run the project?
+###### Note
+- You need to install `ng2 charts`, you can install ng2-charts using npm.
+*command:* `npm install **ng2-charts --save**`.
+- Also install `chart.js` using `npm install **angular-chart.js** --save` command.
 
 
 1. download the project, and go to folder gradeanalysis.
