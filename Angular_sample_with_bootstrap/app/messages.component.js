@@ -8,20 +8,21 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
+Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
 var message_service_1 = require("./message.service");
-var MessageComponent = (function () {
+var MessageComponent = /** @class */ (function () {
     function MessageComponent(i) {
         this.msg = i.getMessages();
     }
+    MessageComponent = __decorate([
+        core_1.Component({
+            selector: 'message',
+            template: "<h1>Message Component</h1>\n    <ul>\n        <li *ngFor=\"let m of msg\">\n            {{m}}\n        </li>\n    </ul>",
+        }),
+        __metadata("design:paramtypes", [message_service_1.MessageService])
+    ], MessageComponent);
     return MessageComponent;
 }());
-MessageComponent = __decorate([
-    core_1.Component({
-        selector: 'message',
-        template: "<h1>Message Component</h1>\n    <ul>\n        <li *ngFor=\"let m of msg\">\n            {{m}}\n        </li>\n    </ul>",
-    }),
-    __metadata("design:paramtypes", [message_service_1.MessageService])
-], MessageComponent);
 exports.MessageComponent = MessageComponent;
 //# sourceMappingURL=messages.component.js.map
