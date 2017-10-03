@@ -1,7 +1,7 @@
 ## How to run the project?
 ###### Note
 - You need to install `ng2 charts`, you can install ng2-charts using npm.
-**command:** `npm install **ng2-charts --save**`.
+> **command:** `npm install **ng2-charts --save**`.
 - Also install `chart.js` using `npm install **angular-chart.js** --save` command.
 
 
