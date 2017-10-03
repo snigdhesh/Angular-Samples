@@ -11,17 +11,15 @@
 4. Now run `ng serve` again, this should now work generally at **localhost:4200**.
 
 
-commond issue and solution ot it
---------------------------------
+## What did I do behind the scenes?
 
-Test case 1
----------------
+### Test case 1
 
-1.created an angular-cli project with graphs in it, working fine. It includes "node modules" folder where all dependencies listed in "package.json" reside.
+- Created an angular-cli project with charts in it, it's working fine. 
+It includes **node modules** folder, where all dependencies listed in **package.json** file reside.
 
-2.then deleted "node modules" folder, and compiled it again using "ng serve", which returned an error "@angular/compiler-cli" package was not properly installed.
-so, if you find an error like above, try using step 3.
+- Then deleted **node modules** folder, and compiled it again using `ng serve`, which returned an error **@angular/compiler-cli** package was not properly installed.
 
-3.then tried to install _node modules_ using "npm install node-modules", but the error remains same.
+- Then tried to install **node modules** using `npm install node-modules`, but the error remains same.
 
-4.then tried "npm install", HOLA, it worked again :D
+- Then tried `npm install`, HOLA, it worked again!!!
